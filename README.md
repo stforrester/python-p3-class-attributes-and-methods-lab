@@ -147,10 +147,9 @@ This manner of displaying numerical data is called a
 [histogram](https://en.wikipedia.org/wiki/Histogram). How will you create your
 histogram? There are a few ways!
 
-- You can need to iterate over the `genres` list and populate a dictionary with
-  the key/value pairs. You will need to check to see if the hash already
-  contains a key of a particular genre. If so, increment the value of that key
-  by one, otherwise, create a new key/value pair.
+- You will need to check to see if the hash already contains a key of a particular
+  genre. If so, increment the value of that key by one, otherwise, create a new
+  key/value pair.
 
 `add_to_artist_count()`: creates a histogram similar to the one above, but for
 artists rather than genres.
